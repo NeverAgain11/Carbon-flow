@@ -1,5 +1,5 @@
 import XCTest
-import Carbon-flow
+import Carbon
 
 class Tests: XCTestCase {
     

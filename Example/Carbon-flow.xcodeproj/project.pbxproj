@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D4E6551BBCF69B3D767592E /* libPods-Carbon-flow_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5E22432999A690DE231E10E /* libPods-Carbon-flow_Tests.a */; };
+		4AA4E55F490824A6A428DCEB /* libPods-Carbon-flow_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B841F7374243226F7EFA3FCC /* libPods-Carbon-flow_Example.a */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		7B2632C33821F4715E2110B5 /* Pods_Carbon_flow_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43EADAFE2AD8B68A77929D04 /* Pods_Carbon_flow_Example.framework */; };
-		A5F2F8E93DB6B782BC995815 /* Pods_Carbon_flow_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D772D02A628D2172C9F101C2 /* Pods_Carbon_flow_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +28,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		43EADAFE2AD8B68A77929D04 /* Pods_Carbon_flow_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Carbon_flow_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* Carbon-flow_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Carbon-flow_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,13 +38,14 @@
 		607FACE51AFB9204008FA782 /* Carbon-flow_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Carbon-flow_Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		719B89CF2E35C6AA71E6EC23 /* Carbon-flow.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "Carbon-flow.podspec"; path = "../Carbon-flow.podspec"; sourceTree = "<group>"; };
-		793B9686483E55BE9BC9A89F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		719B89CF2E35C6AA71E6EC23 /* Carbon-flow.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "Carbon-flow.podspec"; path = "../Carbon-flow.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		793B9686483E55BE9BC9A89F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		801BCD1AFE4FA00FBFA776B9 /* Pods-Carbon-flow_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carbon-flow_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Carbon-flow_Tests/Pods-Carbon-flow_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		886D5CC27A7049362DC1FE67 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		886D5CC27A7049362DC1FE67 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A5E22432999A690DE231E10E /* libPods-Carbon-flow_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Carbon-flow_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA111B8E8F20D38D1D74E22B /* Pods-Carbon-flow_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carbon-flow_Example.debug.xcconfig"; path = "Target Support Files/Pods-Carbon-flow_Example/Pods-Carbon-flow_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B841F7374243226F7EFA3FCC /* libPods-Carbon-flow_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Carbon-flow_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD6F07947D6A44AF57487B51 /* Pods-Carbon-flow_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carbon-flow_Tests.release.xcconfig"; path = "Target Support Files/Pods-Carbon-flow_Tests/Pods-Carbon-flow_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D772D02A628D2172C9F101C2 /* Pods_Carbon_flow_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Carbon_flow_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB4B11064D1B66CE5E2CEF9E /* Pods-Carbon-flow_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carbon-flow_Example.release.xcconfig"; path = "Target Support Files/Pods-Carbon-flow_Example/Pods-Carbon-flow_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B2632C33821F4715E2110B5 /* Pods_Carbon_flow_Example.framework in Frameworks */,
+				4AA4E55F490824A6A428DCEB /* libPods-Carbon-flow_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5F2F8E93DB6B782BC995815 /* Pods_Carbon_flow_Tests.framework in Frameworks */,
+				3D4E6551BBCF69B3D767592E /* libPods-Carbon-flow_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,15 +77,14 @@
 				801BCD1AFE4FA00FBFA776B9 /* Pods-Carbon-flow_Tests.debug.xcconfig */,
 				BD6F07947D6A44AF57487B51 /* Pods-Carbon-flow_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		4BA95958335D158CED1C5FF7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				43EADAFE2AD8B68A77929D04 /* Pods_Carbon_flow_Example.framework */,
-				D772D02A628D2172C9F101C2 /* Pods_Carbon_flow_Tests.framework */,
+				B841F7374243226F7EFA3FCC /* libPods-Carbon-flow_Example.a */,
+				A5E22432999A690DE231E10E /* libPods-Carbon-flow_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -171,7 +170,6 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				B55BC26F0EA6A2B719B59B53 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -227,6 +225,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -304,24 +303,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B55BC26F0EA6A2B719B59B53 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Carbon-flow_Example/Pods-Carbon-flow_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Carbon-flow/Carbon_flow.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Carbon_flow.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Carbon-flow_Example/Pods-Carbon-flow_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

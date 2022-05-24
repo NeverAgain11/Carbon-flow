@@ -1,4 +1,4 @@
-#if canImport(SwiftUI) && canImport(Combine)
+#if canImport(SwiftUI) && !(os(iOS) && (arch(i386) || arch(arm)))
 
 import SwiftUI
 
@@ -26,6 +26,7 @@ private struct ComponentView<C: Component>: View {
     }
 }
 
+@available(iOS 13.0, *)
 private struct ComponentRepresenting<C: Component>: UIViewRepresentable {
     var component: C
     var proxy: ComponentViewProxy

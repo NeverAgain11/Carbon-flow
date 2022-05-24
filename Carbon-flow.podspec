@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Carbon-flow'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'Carbon 小修改'
   s.module_name = "Carbon"
 # This description is used to generate tags and improve search results.

@@ -1,4 +1,3 @@
-import AsyncDisplayKit
 
 /// Represents a component that can be uniquely identify.
 ///

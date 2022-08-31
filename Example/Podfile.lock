@@ -1,14 +1,12 @@
 PODS:
-  - Carbon-flow (0.1.0):
+  - Carbon-flow (1.0.0):
     - DifferenceKit
-    - Texture/Core (~> 3.0)
   - DifferenceKit (1.1.5):
     - DifferenceKit/Core (= 1.1.5)
     - DifferenceKit/UIKitExtension (= 1.1.5)
   - DifferenceKit/Core (1.1.5)
   - DifferenceKit/UIKitExtension (1.1.5):
     - DifferenceKit/Core
-  - Texture/Core (3.0.0)
 
 DEPENDENCIES:
   - Carbon-flow (from `../`)
@@ -16,17 +14,15 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - DifferenceKit
-    - Texture
 
 EXTERNAL SOURCES:
   Carbon-flow:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Carbon-flow: 1ec7f87103c45ef91a67c3915b99a8fd0a90d34a
+  Carbon-flow: daf8bf5486d43579b1dc053b53d8962967bec1d4
   DifferenceKit: 516f12e336ed65a3a0665847b5c3cb5cad4bd4ea
-  Texture: 2f109e937850d94d1d07232041c9c7313ccddb81
 
-PODFILE CHECKSUM: 2ab99f88aa2a7db71bc016506ee66a7f51feb3c8
+PODFILE CHECKSUM: f9183e2cb4c7df415957d4400671247469c43bb5
 
 COCOAPODS: 1.11.3

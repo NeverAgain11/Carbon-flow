@@ -1,3 +1,4 @@
+# pod trunk push Carbon-flow.podspec --allow-warnings
 #
 # Be sure to run `pod lib lint Carbon-flow.podspec' to ensure this is a
 # valid spec before submitting.
@@ -8,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Carbon-flow'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Carbon 小修改'
   s.module_name = "Carbon"
 # This description is used to generate tags and improve search results.
@@ -37,5 +38,5 @@ TODO: Add long description of the pod here.
   # }
 
   s.dependency 'DifferenceKit'
-  s.dependency "Texture/Core", "~> 3.0"
+  
 end
